@@ -16,6 +16,7 @@ from sklearn.decomposition import PCA
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 def df2labeled_sentence(df):
